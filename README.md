@@ -7,6 +7,8 @@ Install dependencies:
 pipenv install
 pipenv shell
 
+pipenv install flask flask-sqlalchemy flask-migrate python-dotenv
+
 Set up database:
 
 export FLASK_APP=server.app
